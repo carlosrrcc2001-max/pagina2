@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #12002f, #1a1a40, #0044ff);
+    color: white;
+    min-height: 100vh;
+}
+
+.container{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+header{
+    text-align: center;
+    padding: 60px 20px;
+}
+
+header h1{
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+header p{
+    font-size: 1.2rem;
+    color: #cfcfff;
+}
+
+.card{
+    background: rgba(255,255,255,0.08);
+    border: 1px solid rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 25px;
+    margin-bottom: 25px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover{
+    transform: translateY(-5px);
+}
+
+.card h2{
+    margin-bottom: 20px;
+    color: #8ab4ff;
+}
+
+.card p{
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skills span{
+    background: linear-gradient(90deg, #6a00ff, #005eff);
+    padding: 10px 15px;
+    border-radius: 30px;
+    font-size: 0.9rem;
+}
+
+.social{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.social a{
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(90deg, #6a00ff, #005eff);
+    padding: 12px 18px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.social a:hover{
+    opacity: 0.8;
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    background: rgba(0,0,0,0.3);
+}
